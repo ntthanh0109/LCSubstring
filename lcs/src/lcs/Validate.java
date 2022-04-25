@@ -20,7 +20,6 @@ public class Validate {
             } else {
 //                System.out.println(error);
                 logger.info(error);
-                logger.info("hello mtf");
             }
         }
         return txt;
