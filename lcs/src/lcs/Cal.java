@@ -7,7 +7,7 @@ import org.slf4j.*;
 public class Cal {
 
     Validate v = new Validate();
-    Logger logger = LoggerFactory.getLogger("Calculation");
+    Logger logger = LoggerFactory.getLogger(Cal.class);
 
     public void lcs(String x, String y) {
         int m = x.length();

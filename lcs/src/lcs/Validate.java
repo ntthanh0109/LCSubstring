@@ -5,7 +5,7 @@ import org.slf4j.*;
 
 public class Validate {
 
-    Logger logger = LoggerFactory.getLogger("String validatation");
+    Logger logger = LoggerFactory.getLogger(Validate.class);
 
     Scanner u = new Scanner(System.in);
 
